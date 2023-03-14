@@ -4,7 +4,7 @@
 		$bdd = new PDO(
 			"mysql:host=localhost;dbname=prjta;charset=utf8",
 			"root",
-			"1111"
+			"1234"
 		); 
 	} 
 	catch (Exception $e) { 
