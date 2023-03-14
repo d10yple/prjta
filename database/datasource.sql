@@ -25,6 +25,7 @@ create table wod(
 create table seance(
     id int not null auto_increment,
     wod_id int not null,
+	datetime_seance varchar(255) not null,
     primary key (id),
     foreign key (wod_id) references wod(id)
 ) engine=innodb;
