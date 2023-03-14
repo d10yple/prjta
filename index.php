@@ -10,8 +10,14 @@
 	catch (Exception $e) { 
 		die("Error: " . $e->getMessage());
 	}
-	
 
+	$query = "select * from user where email = 'anthonytrisolini@gmail.com'";
+
+	$bdd->prepare(query);
+	$bdd->execute();
+	$result = $bdd->fetchall();
+
+	echo $result;
 ?>
 
 Hello world!
