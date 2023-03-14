@@ -3,7 +3,7 @@
 	try {
 		$bdd = new PDO(
 			"mysql:host=localhost;dbname=prjta;charset=utf8",
-			"root",
+			"mariauser",
 			"1234"
 		); 
 	} 
