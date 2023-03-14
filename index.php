@@ -3,8 +3,8 @@
 	try {
 		$bdd = new PDO(
 			"mysql:host=127.0.0.1;dbname=prjta;charset=utf8",
-			"mariauser",
-			"1111"
+			"root",
+			"1234"
 		); 
 	} 
 	catch (Exception $e) { 
