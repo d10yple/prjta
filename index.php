@@ -2,7 +2,7 @@
 
 	try {
 		$bdd = new PDO(
-			"mysql:host=localhost;dbname=prjta;charset=utf8",
+			"mysql:host=127.0.0.1;dbname=prjta;charset=utf8",
 			"mariauser",
 			"1234"
 		); 
